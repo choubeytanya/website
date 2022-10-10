@@ -1,0 +1,123 @@
+@media(min-width:1024px) and (max-width:1366px){
+    .nav-link{
+        font-size: 17px;
+        padding: 0 !important;
+    }
+
+    .number{
+        font-size: 65px !important; 
+        &:hover{
+         font-size: 70px;
+        }
+    }
+   
+}
+@media(min-width:992px) and (max-width:1023px){
+    .nav-link{
+        font-size: 17px;
+        padding: 0 !important;
+    }
+    .number{
+        font-size: 65px !important; 
+        &:hover{
+         font-size: 70px;
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+    .top-header{
+        flex-direction: column-reverse!important;
+    }
+    .nav-item{
+        padding:0!important;
+        text-align: center;
+    }
+    
+    .number{
+        font-size: 50px !important; 
+        &:hover{
+         font-size: 55px;
+        }
+    }  
+
+    .about-container{
+        .about-heading{
+            font-size: 18px;
+        } 
+        &:hover{
+            .about-heading{
+                font-size: 20px;
+            } 
+        }
+    }
+
+    .event-para{
+        padding:0 !important;
+    }
+
+    .doubt-heading, .time {
+        font-size: 15px;
+    }
+    .website-icons{
+        font-size: 25px;
+        margin:0 10px !important;
+        &:hover{
+            font-size:30px;
+        }
+    }
+
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .top-header{
+        flex-direction: column-reverse!important;
+    }
+    .nav-item{
+        padding:0!important;
+        text-align: center;
+    }
+    .banner-image{
+        height: 100%;
+        width: auto !important;
+    }
+    .about-container,.event-container{
+        margin-bottom: 50px!important;
+    }
+
+    .event-header{
+        text-align: center;
+    }
+
+    .element{
+        text-align: center;
+        margin-bottom: 10px!important;
+
+    }
+
+    .number{
+        font-size: 40px !important; 
+        &:hover{
+         font-size: 45px;
+        }
+    }  
+
+    .website-icons{
+        font-size: 25px;
+        margin:0 10px !important;
+        &:hover{
+            font-size:30px;
+        }
+    }
+
+}
+
+
+@media(min-width:530px) and (max-width:767px){
+    .banner-image{
+        width: 100% !important;
+        height:auto;
+    }
+   
+}
+

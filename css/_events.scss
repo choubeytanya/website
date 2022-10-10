@@ -1,0 +1,39 @@
+.event-header{
+    font-size: 20px;
+}
+
+.event-box{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    .date{
+        font-size: 50px;
+        line-height: 0.8;
+    }
+    .month{
+        font-size: 12px;
+    }
+
+}
+
+.event-heading{
+    font-size:20px;
+}
+
+
+.more-link{
+    border-radius:3px;
+    width:130px;
+    text-decoration: none;
+
+}
+
+.event-container:hover{
+    .event-box{
+        background-color:$hover-color !important;
+    }
+    .more-link{
+        background-color:$hover-color !important;
+        text-decoration: none;
+    }
+}

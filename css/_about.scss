@@ -1,0 +1,27 @@
+.about{
+    background-color:$col1;
+}
+
+
+
+.about-container{
+    .read-more{
+        text-decoration: none;
+        font-size: 12px;
+        font-family:$font2;
+    }
+    .about-heading{
+        font-size: 25px;
+        transition:font-size 500ms;
+    }
+
+    &:hover{
+        .read-more{
+            color:$hover-color !important;
+        }
+        .about-heading{
+            font-size: 27px;
+            
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.doubt-heading,.time{
+    font-size:20px;
+}
+
+.number{
+   font-size: 78px; 
+   transition: font-size 500ms;
+   .call{
+    text-decoration: none;
+   }
+   &:hover{
+    font-size: 80px;
+   }
+}

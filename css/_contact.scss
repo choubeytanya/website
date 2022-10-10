@@ -1,0 +1,8 @@
+.website-icons{
+    font-size: 35px;
+    transition:font-size 200ms;
+    &:hover{
+        font-size:40px;
+        color:$hover-color;
+    }
+}

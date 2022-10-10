@@ -1,0 +1,29 @@
+.top-banner{
+    height:300px;
+    overflow: hidden;
+    position:relative;
+}
+
+.slick{
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:310px;
+    .slick-active{
+        button:before{
+            color:$hover-color !important;
+        }
+    }
+}
+
+.box{
+    box-shadow: 2px 4px 3px 1px $shadow;
+    .box-header{
+        font-size: 50px;
+        line-height: 1;
+    }
+    .box-para{
+        font-size: 16px;
+    }
+}
+

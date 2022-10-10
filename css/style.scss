@@ -1,0 +1,26 @@
+@import "variables";
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: $font1;
+}
+@import "top-banner";
+
+@import "navigation";
+
+@import "about";
+
+@import "events.scss";
+
+@import "questions.scss";
+
+@import "contact";
+
+@import "client";
+
+@import "footer";
+
+@import "media";

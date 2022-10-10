@@ -1,0 +1,208 @@
+* {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif; }
+
+.top-banner {
+  height: 300px;
+  overflow: hidden;
+  position: relative; }
+
+.slick {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 310px; }
+  .slick .slick-active button:before {
+    color: #dc3545 !important; }
+
+.box {
+  box-shadow: 2px 4px 3px 1px #605f5f; }
+  .box .box-header {
+    font-size: 50px;
+    line-height: 1; }
+  .box .box-para {
+    font-size: 16px; }
+
+.navbar-brand .brand-heading {
+  font-size: 40px;
+  line-height: 0.8; }
+.navbar-brand .brand-para {
+  font-size: 7px; }
+
+.nav-item:hover {
+  background-color: #dc3545; }
+
+.about {
+  background-color: #171717; }
+
+.about-container .read-more {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+.about-container .about-heading {
+  font-size: 25px;
+  transition: font-size 500ms; }
+.about-container:hover .read-more {
+  color: #dc3545 !important; }
+.about-container:hover .about-heading {
+  font-size: 27px; }
+
+.event-header {
+  font-size: 20px; }
+
+.event-box {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; }
+  .event-box .date {
+    font-size: 50px;
+    line-height: 0.8; }
+  .event-box .month {
+    font-size: 12px; }
+
+.event-heading {
+  font-size: 20px; }
+
+.more-link {
+  border-radius: 3px;
+  width: 130px;
+  text-decoration: none; }
+
+.event-container:hover .event-box {
+  background-color: #dc3545 !important; }
+.event-container:hover .more-link {
+  background-color: #dc3545 !important;
+  text-decoration: none; }
+
+.doubt-heading, .time {
+  font-size: 20px; }
+
+.number {
+  font-size: 78px;
+  transition: font-size 500ms; }
+  .number .call {
+    text-decoration: none; }
+  .number:hover {
+    font-size: 80px; }
+
+.website-icons {
+  font-size: 35px;
+  transition: font-size 200ms; }
+  .website-icons:hover {
+    font-size: 40px;
+    color: #dc3545; }
+
+.client {
+  background-color: #2e2b2b; }
+
+.item-head {
+  font-size: 20px; }
+
+.slick-slider .slick-prev {
+  left: 0; }
+.slick-slider .slick-next {
+  right: 0; }
+
+.footer-section {
+  background-color: #171717; }
+
+.copyright {
+  font-size: 25px; }
+
+.copyright-para {
+  font-size: 12px; }
+
+.up {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .nav-link {
+    font-size: 17px;
+    padding: 0 !important; }
+
+  .number {
+    font-size: 65px !important; }
+    .number:hover {
+      font-size: 70px; } }
+@media (min-width: 992px) and (max-width: 1023px) {
+  .nav-link {
+    font-size: 17px;
+    padding: 0 !important; }
+
+  .number {
+    font-size: 65px !important; }
+    .number:hover {
+      font-size: 70px; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .top-header {
+    flex-direction: column-reverse !important; }
+
+  .nav-item {
+    padding: 0 !important;
+    text-align: center; }
+
+  .number {
+    font-size: 50px !important; }
+    .number:hover {
+      font-size: 55px; }
+
+  .about-container .about-heading {
+    font-size: 18px; }
+  .about-container:hover .about-heading {
+    font-size: 20px; }
+
+  .event-para {
+    padding: 0 !important; }
+
+  .doubt-heading, .time {
+    font-size: 15px; }
+
+  .website-icons {
+    font-size: 25px;
+    margin: 0 10px !important; }
+    .website-icons:hover {
+      font-size: 30px; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .top-header {
+    flex-direction: column-reverse !important; }
+
+  .nav-item {
+    padding: 0 !important;
+    text-align: center; }
+
+  .banner-image {
+    height: 100%;
+    width: auto !important; }
+
+  .about-container, .event-container {
+    margin-bottom: 50px !important; }
+
+  .event-header {
+    text-align: center; }
+
+  .element {
+    text-align: center;
+    margin-bottom: 10px !important; }
+
+  .number {
+    font-size: 40px !important; }
+    .number:hover {
+      font-size: 45px; }
+
+  .website-icons {
+    font-size: 25px;
+    margin: 0 10px !important; }
+    .website-icons:hover {
+      font-size: 30px; } }
+@media (min-width: 530px) and (max-width: 767px) {
+  .banner-image {
+    width: 100% !important;
+    height: auto; } }
+
+/*# sourceMappingURL=style.css.map */
