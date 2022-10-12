@@ -6,11 +6,21 @@
     font-size: 20px;
 }
 
-.slick-slider{
+
+
+.client-carousel{
+    .slick-prev:before, .slick-next:before {
+        color:$col2;
+        opacity:1;
+        font-size: 27px;
+        position: relative;
+        left: -4px;
+        top: -2px;
+    }
     .slick-prev {
-        left:0;
+        @include arrow(left);
     }
     .slick-next {
-        right:0;
+        @include arrow(right);
     }
 }

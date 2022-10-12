@@ -2,6 +2,7 @@
     height:300px;
     overflow: hidden;
     position:relative;
+    
 }
 
 .slick{
@@ -9,6 +10,21 @@
     left:50%;
     transform: translate(-50%,-50%);
     width:310px;
+    z-index: 1;
+
+    .slick-dots{
+        li{
+            margin:0 !important;
+            button{
+                &:before{
+                    font-size: 12px;
+                    color: white;
+                    opacity:1;
+                }
+
+            }
+        }
+    } 
     .slick-active{
         button:before{
             color:$hover-color !important;
@@ -26,4 +42,6 @@
         font-size: 16px;
     }
 }
+
+
 
